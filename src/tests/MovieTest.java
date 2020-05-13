@@ -12,12 +12,12 @@ public class MovieTest {
 	
 	@Before
 	public void setUp() {
-		movie = new Movie("Toller Film", 13);
+		movie = new Movie("Toller Film", 0);
 	}
 	
 	@Test
 	public void getPriceCode() {
-		assertEquals(13, movie.getPriceCode());
+		assertEquals(0, movie.getPriceCode());
 	}
 	
 	@Test
